@@ -1,0 +1,26 @@
+.panel {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 300px;
+    height: 100%;
+    flex-shrink: 0;
+    padding: 20px;
+    color: #ffffff;
+    background: #009578;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  }
+  
+  .panel.open {
+    right: 0;
+  }
+  
+  .wakefit-rewards {
+    margin-bottom: 64px;
+  }
+  
+  .reward-free {
+    color: green;
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
